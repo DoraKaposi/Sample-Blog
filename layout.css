@@ -1,0 +1,46 @@
+/**
+ * CONTENTS
+ *
+ * LAYOUT
+ * Elements.............Rules for the container and items
+ */
+
+
+
+
+ /*------------------------------------*\
+  #ELEMENTS
+\*------------------------------------*/
+
+.container {
+    display:               grid;
+    grid-template-areas:
+                           "header header header header"
+                           "topnav topnav topnav topnav" 
+                           ". content1 content2 ."
+                           "footer footer footer footer";
+    grid-template-columns: 20.41rem 60.83rem 29.18rem 20.41rem;
+    grid-template-rows:    6.66rem 6.66rem 186.66rem 6.66rem;
+    height:                100vh;
+    column-gap:            2.5rem;
+  }
+
+  .header {
+    grid-area:             header;
+  }
+  
+  .top-nav{
+    grid-area:             topnav;
+  }
+  
+  .main-content {
+    grid-area:             content1;  
+  }
+
+  .side-content {
+    grid-area:             content2;
+  }
+  
+  .footer {
+    grid-area:             footer;
+  }

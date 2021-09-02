@@ -1,0 +1,446 @@
+/**
+ * CONTENTS
+ *
+ * HEADER
+ *
+ * NAVIGATION
+ *
+ * MAIN CONTENT
+ *** POST STYLES
+ *** BUTTON STYLES
+ *** MINI NEWS STYLES
+ *
+ * SIDEBAR
+ ***MINI NEWS STYLE
+ *
+ * FOOTER
+ */
+
+
+
+
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-secondary);
+}
+
+.btn--subscribe{
+    border: 0.16rem solid #FFFFFF;
+}
+
+.header__logo {
+    opacity: 1;
+  position: relative;
+  left: -85px;
+  transition: opacity 0.3s ease-out;
+  }
+
+.header__logo:hover{
+      opacity: 0.5;
+}
+/*------------------------------------*\
+  #NAVIGATION
+\*------------------------------------*/
+
+.top-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Background-color: var(--bg-primary);
+}
+
+.top-nav{
+    padding: 0 auto;
+}
+
+.top-nav li{
+    text-align: left;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 2.916rem;
+    line-height: 1.25rem;
+}
+
+.top-nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #211138;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.top-nav a:hover{
+    color: #6200EA;
+    padding-bottom: 2.3rem;
+    border-bottom: 0.416rem #6200EA solid;
+    
+}
+/*------------------------------------*\
+  #MAIN CONTENT
+\*------------------------------------*/
+
+.main-content {
+    background-color:transparent;
+    margin-top: 2.5rem;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #MAIN CONTENT - POST STYLES
+\*------------------------------------*/
+
+.post{
+    height: 29.16rem;
+    border-radius: 15px;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-color: var(--bg-primary);
+}
+
+.post--highlighted{
+    background-image:url('assets/roberto-nickson-5ui0tfMC5ts-unsplash.jpg');
+    background-position: 0% 0%;
+    background-size: 100%;
+    padding-top: 5rem;
+}
+
+.post--with-img{
+    border-radius: 0 0 15px 15px;
+}
+
+.datum{
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    line-height: 1.25rem;
+    text-align: left;
+    color: #B2ACBA;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 1.25rem;
+}
+
+.datum--highlighted{
+    color: #FFFFFF;
+}
+.title{
+    font-size: 3.33rem;
+    text-align: left;
+    color: #211138;
+    line-height: 4.16rem;
+    padding-bottom: 1.25rem;
+    font-weight: bold;
+}
+
+.title--highlighted{
+    color: #FFFFFF;
+}
+
+.post__text{
+    font-size: 1.66rem;
+    text-align: left;
+    line-height: 2.5rem;
+    padding-bottom: 1.25rem;
+}
+.post__text--highlighted{
+    color: #FFFFFF;
+}
+.post__img{
+    width: 60.83rem;
+    height: 26.66rem;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: -2px;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #MAIN CONTENT - BUTTON STYLES
+\*------------------------------------*/
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 13.33rem;
+    height: 3.33rem;
+    border: 2px solid #6200EA;
+    border-radius: 2rem;
+    background-color: var(--bg-primary);
+    text-align: center;
+    text-transform: uppercase;
+    color: #6200EA;
+    letter-spacing: 0.2rem;
+    line-height: 1.25rem;
+}
+
+.btn:hover{
+    background-color: var(--bg-secondary);
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn--subscribe{
+    border: 0.16rem solid #FFFFFF;
+}
+
+.btn-pos{
+    position: relative;
+    left:-385px;
+}
+
+.left{
+    justify-self: first baseline;
+    
+}
+
+.btn--highlighted{
+    border: 0.16rem solid #FFFFFF;  
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.btn--highlighted:hover{
+    background-color: var(--bg-primary);
+    color: #6200EA;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #MAIN CONTENT - MINI NEWS STYLES
+\*------------------------------------*/
+
+.what-to-read{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.rounded{
+    border-radius: 15px;
+
+}
+
+.mini-img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.83rem;
+    margin-right: 1.66rem;
+    float:left;
+    background-position: 50% 0%;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.mini-img--bg1{
+    background-image:url('assets/samson-ZGjbiukp_-A-unsplash.jpg');
+}
+
+.mini-img--bg2{
+    background-image:url('assets/vitaliy-lyubezhanin-gfVofr15ICc-unsplash.jpg');
+}
+
+
+
+
+
+/*------------------------------------*\
+  #SIDEBAR
+\*------------------------------------*/
+
+.side-content {
+    background-color: transparent;
+}
+
+.side-content{
+    margin-top: 2.5rem;  
+  }
+  
+.side-content__header{
+    width: 29.16rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-secondary);
+    border-radius: 1.25rem 1.25rem 0px 0px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+  
+.side-content__footer{
+    width: 29.16rem;
+    height: 5rem;
+    border-radius: 0px 0px 15px 15px; 
+    background-color: var(--bg-primary);
+    margin-bottom: 30px;
+}
+  
+.side-content__footer a{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #B2ACBA;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-top: 1px #F4F3F5 solid;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #SIDEBAR - MINI NEWS STYLE
+\*------------------------------------*/
+
+.mini-news{
+    width: 29.16rem;
+    height: 13.33rem;
+    background-color: var(--bg-primary);
+    padding-left: 1.66rem;
+    padding-right: 1.66rem;
+    padding-top: 1.66rem;
+}
+
+.mini-news__title{
+    font-size: 1rem;
+    color: #6200EA;
+    text-align: left;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    margin-bottom: 1.25rem;
+}
+
+.mini-news__text{
+    width: 14.17rem;
+    font-size: 1.16rem;
+    color: #211138;
+    text-align: left;
+    line-height: 1.66rem;
+    letter-spacing: 0px;
+    float:left;
+}
+.mini-img--bg3{
+    background-image:url('assets/younes-barri-zsHPnX2zstw-unsplash.jpg');
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+
+.mini-img--bg4{
+    background-image:url('assets/boxed-water-is-better-cXJCpV2Jv1Y-unsplash.jpg');
+}
+
+.mini-img--bg5{
+    background-image:url('assets/marco-oriolesi-wqLGlhjr6Og-unsplash.jpg');
+}
+
+.mini-img--bg6{
+    background-image:url('assets/hal-gatewood-OgvqXGL7XO4-unsplash.jpg');
+}
+
+.mini-img--bg7{
+    background-image:url('assets/tom-barrett-M0AWNxnLaMw-unsplash.jpg');
+    background-size: 125%;
+}
+
+.mini-img--bg8{
+    background-image:url('assets/nasa-Q1p7bh3SHj8-unsplash.jpg');
+}
+
+
+
+
+
+/*------------------------------------*\
+  #SIDEBAR - CATEGORIES STYLES
+\*------------------------------------*/
+
+.side-content__nav{
+    display: block;
+    height: 33.33rem;
+}
+
+.categories ul{
+    display:block;
+    list-style-type: none;
+    width: 29.16rem;
+}
+.categories li{
+    height: 4.16rem;
+    background-color: var(--bg-primary);
+    padding: 0px 30px;
+    border-bottom: 1px #F4F3F5 solid;
+}
+.categories ul a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #211138;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    line-height: 1.25rem;
+    height: 4.16rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+
+.footer {
+    background-color:#211138;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.footer__text{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    line-height: 1.25rem;
+    text-align: center;
+    color: #B2ACBA;
+}
+
+.footer__text--highlighted{
+    color: #6200EA;
+    font-style: normal;
+}
